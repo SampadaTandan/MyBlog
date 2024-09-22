@@ -1,0 +1,66 @@
+header{
+  display: flex;
+  justify-content:space-between;
+  margin-bottom: 50px;
+}
+main{
+  padding: 10px;
+  background-color: #f0f0f0;
+  max-width: 700px;
+  margin: 0 auto;
+}
+body{
+  color: #222;
+}
+header a{
+  text-decoration: none;
+  color: #333;
+}
+header a:hover{
+  color: #666;
+}
+header a:active{
+  color: #999;
+}
+header a.logo{
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+header nav{
+  display: flex;
+  gap: 15px;
+}
+div.post{
+  max-width: 100%;
+  grid-template-columns: 9fr 6fr;
+  display: grid;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+div.post div.texts h2{
+  margin: 0;
+  font-size: 1.8rem;
+}
+div.post p.info{
+  font-size: 0.8em;
+  color: #666;
+  margin: 6px 0;
+  font-weight: bold;
+  display: flex;
+  gap: 10px;
+
+}
+div.post p.info a.author{
+  text-decoration: none;
+  color:#333;
+  
+}
+  /* font-size: rem; */
+
+div.post p.summary{
+  margin: 10px 0;
+  line-height:  1.4rem; ;
+}
+img{
+  max-width: 100%;
+}
